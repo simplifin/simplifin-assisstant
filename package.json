@@ -1,0 +1,23 @@
+{
+  "name": "simplifin-assistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js",
+    "build": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "discord.js": "^12.5.3",
+    "mysql": "^2.18.1",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.11"
+  }
+}
